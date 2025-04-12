@@ -7,3 +7,4 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->post('/qual-ncm', 'NCM::qualNcm');
+$routes->post('/codigo-ncm', 'NCM::codigoNcm');
